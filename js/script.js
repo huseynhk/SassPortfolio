@@ -1,5 +1,7 @@
 let searchBtn = document.querySelector('#search-btn');
 let searchForm = document.querySelector('.header .search-form');
+let menuBtn = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.header .navbar');
 
 searchBtn.onclick = () =>{
    searchBtn.classList.toggle('fa-times');
@@ -7,9 +9,6 @@ searchBtn.onclick = () =>{
    menuBtn.classList.remove('fa-times');
    navbar.classList.remove('active');
 }
-
-let menuBtn = document.querySelector('#menu-btn');
-let navbar = document.querySelector('.header .navbar');
 
 menuBtn.onclick = () =>{
    menuBtn.classList.toggle('fa-times');
